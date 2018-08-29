@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Microbloggint Site</title>
+</head>
+<body>
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.created_date }}</p>
+        <p>{{ post.post|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+Clase:
+
+Instalar virtualenvwrapper
+ 	-- Agregar al path si se necesita
+
+
+Crear virtual env django-class
+
+
+
+djangogirls/requirements.txt
+
+Django~=2.0.6
+
+django-admin startproject microsite .
+
+En settings.py
+Cambiar Zona horaria a America/Mexico_City
+Agregar al final 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+Migrar
+python manage.py migrate
+Correr y mostrar 
